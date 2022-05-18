@@ -26,7 +26,6 @@ const SignUp = () => {
   return (
     LoggedIn ? <Navigate to="/login" /> :
     <div>
-      <Navbar />
         <div className='container'>
       <form className='loginForm' action="" onSubmit={handleSubmit}>
       <legend><h1>Sign Up</h1></legend>

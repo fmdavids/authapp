@@ -34,7 +34,6 @@ const Login = () => {
   return (
     LoggedIn ? <Navigate to="/dashboard" /> :
     <div className="">
-      <Navbar />
     <div className='container'>
       <form className='loginForm' action="" onSubmit={handleSumit}>
       <legend><h1>Login</h1></legend>
